@@ -1,0 +1,102 @@
+/* 🌍 External CSS file */
+
+/* Element selector - affects all <body> elements */
+body {
+  background-color: #f4f4f4;   /* light gray background */
+  font-family: Verdana;        /* clean and readable font */
+  margin: 0;                   /* remove default margin */
+  padding: 0;                  /* remove default padding */
+}
+
+/* ID selector - for unique sections */
+#about-me, #my-hobbies, #contact {
+  background-color: rgb(237, 116, 116);     /* white section background */
+  border: 2px solid #fc8686;      /* light gray border */
+  margin: 20px;                /* space outside each box */
+  padding: 20px;               /* space inside the box */
+  border-radius: 10px;         /* rounded corners */
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1); /* soft shadow */
+}
+
+/* Box Model Example:
+   Margin (labas) → Border → Padding (loob) → Content */
+
+/* Element selector - style all <p> tags */
+p {
+  color: #333;                 /* dark gray text */
+  line-height: 1.5;            /* spacing between lines */
+}
+
+/* Link styling */
+a {
+  color: rgb(95, 240, 27);                 /* link color */
+  text-decoration: none;       /* remove underline */
+}
+
+/* Hover effect (pseudo-class selector) */
+a:hover {
+  color: crimson;              /* color changes when hovered */
+}
+
+/* List styling */
+ul {
+  list-style-type: square;     /* square bullet points */
+}
+
+/* Responsive text for small screens */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+/* 🌍 External CSS file */
+
+/* Element selector - affects all <body> elements */
+body {
+  background-color: #f4f4f4;   /* light gray background */
+  font-family: Verdana;        /* clean and readable font */
+  margin: 0;                   /* remove default margin */
+  padding: 0;                  /* remove default padding */
+}
+
+/* ID selector - for unique sections */
+#about-me, #my-hobbies, #contact {
+  background-color: rgb(21, 253, 218);     /* white section background */
+  border: 2px solid #876bba;      /* light gray border */
+  margin: 20px;                /* space outside each box */
+  padding: 20px;               /* space inside the box */
+  border-radius: 10px;         /* rounded corners */
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1); /* soft shadow */
+}
+
+/* Box Model Example:
+   Margin (labas) → Border → Padding (loob) → Content */
+
+/* Element selector - style all <p> tags */
+p {
+  color: #333;                 /* dark gray text */
+  line-height: 1.5;            /* spacing between lines */
+}
+
+/* Link styling */
+a {
+  color: navy;                 /* link color */
+  text-decoration: none;       /* remove underline */
+}
+
+/* Hover effect (pseudo-class selector) */
+a:hover {
+  color: crimson;              /* color changes when hovered */
+}
+
+/* List styling */
+ul {
+  list-style-type: square;     /* square bullet points */
+}
+
+/* Responsive text for small screens */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}

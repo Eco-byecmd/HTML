@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Web Page</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      background-color: #85e706;
+      font-family: Arial;
+    }
+
+    h2 {
+      color: teal;
+      text-align: center;
+    }
+
+    .highlight {
+      background-color: yellow;
+      font-weight: bold;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-block;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s, transform 0.3s;
+      margin: 5px;
+    }
+
+    .facebook-btn { background-color: #1877f2; }
+    .facebook-btn:hover { background-color: #0d5bd7; }
+
+    .instagram-btn { background-color: #e1306c; }
+    .instagram-btn:hover { background-color: #c32aa3; }
+
+    .youtube-btn { background-color: #ff0000; }
+    .youtube-btn:hover {
+      background-color: #cc0000;
+      transform: scale(1.05);
+    }
+
+    .social-links {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .info-caption {
+      text-align: center;
+      font-size: 14px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+
+    /* Keep bullets, remove white background */
+    #my-hobbies ul {
+      list-style-type: disc;
+      text-align: left;
+      width: fit-content;
+      margin: 0 auto;
+    }
+
+    #my-hobbies li {
+      color: black;
+      font-size: 18px;
+      padding: 5px 0;
+      background: none;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1 style="color: rgb(48, 48, 215); text-align:center;">Welcome to My Web Page!</h1>
+
+  <div id="about-me">
+    <h2>About Me</h2>
+    <img src="C:\Users\ludwi\Downloads\download (3).jpeg" alt="Selfie" width="200" height="200" style="display:block; margin:auto;">
+    <p>Hello! My name is <span class="highlight">Eco C. Gayapa</span>, a beginner web developer.</p>
+    <p>I love <span class="highlight">coding</span>, designing, and learning new things.</p>
+    <p>I’m passionate about creating simple but meaningful websites that people can enjoy using. I also enjoy exploring new technologies that make web design more fun and interactive. My goal is to keep improving my skills and one day become a professional web developer.</p>
+  </div>
+
+  <div id="my-hobbies">
+    <h2>My Hobbies</h2>
+    <ul>
+      <li>Playing Electric Guitar</li>
+
+      <li>Watching Marvel Movies</li>
+      <div class="info-caption">
+        <a class="btn youtube-btn" href="https://www.youtube.com/@marvel" target="_blank">Marvel Official YouTube Channel</a><br>
+        (This is the official site of Marvel where you can watch trailers, interviews, and behind-the-scenes videos of your favorite Marvel heroes!)
+      </div>
+
+      <li>Playing Airsoft</li>
+      <div class="info-caption">
+        <a class="btn youtube-btn" href="https://www.youtube.com/results?search_query=airsoft+clips" target="_blank">Airsoft Clips on YouTube</a><br>
+        (You can watch exciting airsoft matches, tactical plays, and player highlights here. These clips show how teamwork and strategy make the game more thrilling!)
+      </div>
+    </ul>
+  </div>
+
+  <div id="contact">
+    <h2>Contact Me</h2>
+    <p style="text-align:center;">Email: gayapaeco@gmail.com</p>
+
+    <div class="social-links">
+      <a class="btn facebook-btn" href="https://web.facebook.com/?stype=lo&flo=1&deoia=1&jlou=AffU2kiFE_tJ5wplc-YFMaJnZTJfXZF5EGd149xVjxuRnQa7WI6xH-4bsN5HjSn4p-wcohmpe7w36r93xurN2QMHwzHm2Tuh7ELCOCpTvjafnw&smuh=11990&lh=Ac8G1-MjSAJfxKbBSPU&_rdc=1&_rdr#" target="_blank">Facebook</a>
+      <a class="btn instagram-btn" href="https://www.instagram.com/" target="_blank">Instagram</a>
+    </div>
+  </div>
+
+</body>
+</html>
